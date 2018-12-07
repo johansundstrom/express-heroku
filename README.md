@@ -5,7 +5,7 @@
 * verifiera node ```node -v```
 * installera heroku CLI ```npm install -g heroku```
 * skapa katalog och cd in ```mkdir min-app``` och ```cd min-app```
-* skapa pacakage.json ```npm init``` och svara på frågorna
+* skapa package.json ```npm init``` och svara på frågorna
 * fortsätt i VS code ```code .```
 * installera express ```npm i express --save```
 * skapa index.js ```touch index.js```
@@ -23,3 +23,6 @@ app.listen(port, function () {
  console.log('Example app listening on port !');
 });
 ```
+* testa ```node index.js```
+* öppna browser på ```localhost:3000```
+*
