@@ -25,4 +25,12 @@ app.listen(port, function () {
 ```
 * testa ```node index.js```
 * öppna browser på ```localhost:3000```
-*
+* redigera package.json så att scriptet "start": "node index.js" finns 
+```javascript
+ "scripts": {
+    "start": "node index.js"
+## Heroku
+* logga in på heroku ```heroku login```
+* skapa plats på heroku ```heroku create```
+* flytta upp till heroku ```git push heroku master```
+
