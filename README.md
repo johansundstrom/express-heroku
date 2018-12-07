@@ -33,4 +33,4 @@ app.listen(port, function () {
 * logga in på heroku ```heroku login```
 * skapa plats på heroku ```heroku create```
 * flytta upp till heroku ```git push heroku master```
-
+* se resultat ```heroku open```
