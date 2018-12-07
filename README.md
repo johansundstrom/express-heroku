@@ -9,7 +9,8 @@
 * fortsätt i VS code ```code .```
 * installera express ```npm i express --save```
 * skapa index.js ```touch index.js```
-* skriv ```
+* skriv 
+```javascript
 let express = require('express');
 let port = process.env.PORT || 3000;
 let app = express();
