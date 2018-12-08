@@ -41,4 +41,4 @@ app.listen(port, function () {
 * kopiera url från heroku
 * öppna dns-inställningar till webbhotellet och ange namn, "web alias" och url
 * prova nya url-en
-![DNS inställningar](http://github.com/johansundstrom/express-heroku/dns-pill.png)
+![DNS inställningar](https://github.com/johansundstrom/express-heroku/blob/master/dns-pill.png)
