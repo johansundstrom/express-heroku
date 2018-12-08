@@ -7,6 +7,8 @@
 * skapa katalog och cd in ```mkdir min-app``` och ```cd min-app```
 * skapa package.json ```npm init``` och svara på frågorna
 * fortsätt i VS code ```code .```
+* skapa .gitignore ```touch .gitignore```
+* redigera .gitignore ```/node_modules```
 * installera express ```npm i express --save```
 * skapa index.js ```touch index.js```
 * skriv 
@@ -23,13 +25,18 @@ app.listen(port, function () {
  console.log('Example app listening on port !');
 });
 ```
-* testa ```node index.js```
-* öppna browser på ```localhost:3000```
 * redigera package.json så att scriptet "start": "node index.js" finns 
 ```javascript
  "scripts": {
     "start": "node index.js"
 ```
+* testa att starta ```node index.js```
+* öppna browser på ```localhost:3000```
+* om allt fungerar...
+* ```git add .```
+* ```git commit --messasge "init"```
+* ```git push origin master``` logga in och skicka upp
+
 
 ## Heroku
 * logga in på heroku ```heroku login```
