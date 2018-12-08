@@ -34,3 +34,7 @@ app.listen(port, function () {
 * skapa plats på heroku ```heroku create```
 * flytta upp till heroku ```git push heroku master```
 * se resultat ```heroku open```
+
+## DNS
+* 
+![DNS inställningar](http://github.com/johansundstrom/express-heroku/dns-pill.png)
