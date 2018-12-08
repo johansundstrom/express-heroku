@@ -29,6 +29,8 @@ app.listen(port, function () {
 ```javascript
  "scripts": {
     "start": "node index.js"
+```
+
 ## Heroku
 * logga in på heroku ```heroku login```
 * skapa plats på heroku ```heroku create```
@@ -36,13 +38,7 @@ app.listen(port, function () {
 * se resultat ```heroku open```
 
 ## DNS
-<<<<<<< HEAD
 * kopiera url från heroku
 * öppna dns-inställningar till webbhotellet och ange namn, "web alias" och url
 * prova nya url-en
 ![DNS inställningar](http://github.com/johansundstrom/express-heroku/dns-pill.png)
-=======
-* kopiera url till heroku
-* öppna dns-inställningar till webbhotellet och ange namn, "web alias" och url
-* prova nya url'en
->>>>>>> a7bbeed15a4c605b2253264e09e2791aaad3f224
