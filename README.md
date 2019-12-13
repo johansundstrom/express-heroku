@@ -44,6 +44,10 @@ app.listen(port, function () {
 * flytta upp till heroku ```git push heroku master```
 * se resultat ```heroku open```
 
+### Kommunikationsproblem med befintlig Heroku
+* Kontrollera Heroku anslutning ```git remote -v```
+* Lägg till anslutning ```heroku git:remote -a [heroku-app-namn]```
+
 ## DNS
 * kopiera url från heroku
 * öppna dns-inställningar till webbhotellet och ange namn, "web alias" och url
