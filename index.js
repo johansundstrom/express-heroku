@@ -10,6 +10,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views'))
 app.use(express.static(__dirname + '/public/img'))
 app.use(express.static(__dirname + '/public/css'))
+app.use(express.static(__dirname + '/include/'))
 
 
 app.get('/', function (req, res) {
