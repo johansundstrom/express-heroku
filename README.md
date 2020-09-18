@@ -55,4 +55,4 @@ app.listen(port, function () {
 ![DNS inställningar](https://github.com/johansundstrom/express-heroku/blob/master/dns-pill.png)
 
 Gurkorna i Västerås är inte raka
-Gurkorna är numera böjda längre
+Gurkorna är numera inte böjda längre
