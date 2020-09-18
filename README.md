@@ -53,3 +53,5 @@ app.listen(port, function () {
 * öppna dns-inställningar till webbhotellet och ange namn, "web alias" och url
 * prova nya url-en
 ![DNS inställningar](https://github.com/johansundstrom/express-heroku/blob/master/dns-pill.png)
+
+Gurkorna i Västerås är inte raka
