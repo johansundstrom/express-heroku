@@ -3,13 +3,13 @@
 * installera npm ```sudo apt install npm```
 * verifiera npm ```npm -v```
 * verifiera node ```node -v```
-* installera heroku CLI ```npm install -g heroku```
+* installera heroku CLI ```sudo npm install -g heroku```
 * skapa katalog och cd in ```mkdir min-app``` och ```cd min-app```
 * skapa package.json ```npm init``` och svara på frågorna
 * fortsätt i VS code ```code .```
 * skapa .gitignore ```touch .gitignore```
 * redigera .gitignore ```/node_modules```
-* installera express ```npm i express --save```
+* installera express ```sudo npm i express --save```
 * skapa index.js ```touch index.js```
 * skriv 
 ```javascript
@@ -34,7 +34,7 @@ app.listen(port, function () {
 * öppna browser på ```localhost:3000```
 * om allt fungerar...
 * ```git add .```
-* ```git commit --messasge "init"```
+* ```git commit --message "init"```
 * ```git push origin master``` logga in och skicka upp
 
 
