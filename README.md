@@ -37,6 +37,11 @@ app.listen(port, function () {
 * ```git commit --message "init"```
 * ```git push origin master``` logga in och skicka upp
 
+## Nodemon
+* Nodemon omstartar automatiskt node applikationen så fort ändringar i filen upptäcks.
+* ```npm install nodemon```
+* ```nodemon index.js```
+
 
 ## Heroku
 * logga in på heroku ```heroku login```
