@@ -40,7 +40,7 @@ app.listen(port, function() {
 ## Nodemon
 * Nodemon omstartar automatiskt node applikationen så fort ändringar i filen upptäcks.
 * ```npm install nodemon```
-* ```nodemon index.js```
+* ```npx nodemon index.js```
 
 
 ## Heroku
